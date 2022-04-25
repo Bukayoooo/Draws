@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T08:36:46.271Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="SAhym2TV9wjjdyr225qx" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-25T09:13:05.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="yRs0-x4hAA6xZB2laxFQ" version="17.4.6" type="github">
   <diagram id="UeQkM43qo5BGar94Qf9i" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -27,8 +27,8 @@
         <mxCell id="iAKwhCIjb9DUNFZFx7bt-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=10;" edge="1" parent="1" source="iAKwhCIjb9DUNFZFx7bt-3" target="iAKwhCIjb9DUNFZFx7bt-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="iAKwhCIjb9DUNFZFx7bt-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;校验手机号&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=18;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
-          <mxGeometry x="201" y="290" width="130" height="80" as="geometry" />
+        <mxCell id="iAKwhCIjb9DUNFZFx7bt-3" value="&lt;b style=&quot;font-size: 14px&quot;&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;校验手机号查询&lt;br&gt;数据库手机是否被注册&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=18;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="180" y="290" width="170" height="80" as="geometry" />
         </mxCell>
         <mxCell id="iAKwhCIjb9DUNFZFx7bt-7" value="&lt;font style=&quot;font-size: 10px&quot;&gt;不符合，手机号为空&lt;br&gt;或已 被注册&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="327" y="260" width="120" height="50" as="geometry" />
