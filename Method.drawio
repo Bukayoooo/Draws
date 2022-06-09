@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-06-09T01:44:50.503Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="OvXZGO_jzsrTsda8CILx" version="19.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-09T03:02:07.320Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.5005.63 Safari/537.36" etag="w4GASbZa46HficzP3VWo" version="19.0.2" type="github">
   <diagram id="BiWdn6pCWBrNX4G0EB6R" name="Page-1">
-    <mxGraphModel dx="1422" dy="802" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-57" value="&lt;b&gt;&lt;i&gt;堆区&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=18;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1750" width="240" height="270" as="geometry" />
+        </mxCell>
         <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-22" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=18;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
           <mxGeometry x="25" y="490" width="280" height="320" as="geometry" />
         </mxCell>
@@ -99,6 +102,132 @@
         </mxCell>
         <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-33" value="&lt;b&gt;&lt;i&gt;即时编译器&lt;br&gt;JIT缓存&lt;br&gt;&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=18;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="470" y="950" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-34" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1290" width="650" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-35" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;i&gt;JDK 1.6 内存结构&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1300" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-36" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1330" width="250" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-37" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;i&gt;永久代&lt;br&gt;&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1330" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-38" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="95" y="1350" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-39" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;i&gt;运行时常量池&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1360" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-40" value="&lt;b&gt;&lt;i&gt;字符串常量池&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1390" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-41" value="&lt;b&gt;&lt;i&gt;类型信息&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1465" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-42" value="&lt;b&gt;&lt;i&gt;属性信息&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1465" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-43" value="&lt;b&gt;&lt;i&gt;堆区&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=18;fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1330" width="240" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-44" value="&lt;b&gt;&lt;i&gt;方法信息&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1540" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-46" value="&lt;b&gt;&lt;i&gt;JIT&lt;br&gt;代码缓存&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1540" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-47" value="&lt;b&gt;&lt;i&gt;静态变量&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1610" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1710" width="650" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-49" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;i&gt;JDK 1.7 内存结构&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1720" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-50" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1750" width="250" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-51" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;i&gt;永久代&lt;br&gt;&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1750" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-52" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="95" y="1770" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-53" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;i&gt;运行时常量池&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1805" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-54" value="&lt;b&gt;&lt;i&gt;字符串常量池&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="415" y="1820" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-55" value="&lt;b&gt;&lt;i&gt;类型信息&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1885" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-56" value="&lt;b&gt;&lt;i&gt;属性信息&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1885" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-58" value="&lt;b&gt;&lt;i&gt;方法信息&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1960" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-59" value="&lt;b&gt;&lt;i&gt;JIT&lt;br&gt;代码缓存&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1960" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-60" value="&lt;b&gt;&lt;i&gt;静态变量&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1940" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-61" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;sketch=1;fontSize=18;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="40" y="2210" width="280" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-62" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="2210" width="600" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-63" value="&lt;b&gt;&lt;i&gt;堆区&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=18;fillColor=#f9f7ed;strokeColor=#36393d;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="675" y="2250" width="240" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-64" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;i&gt;JDK 1.8 内存结构&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="575" y="2220" width="160" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-65" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="55" y="2250" width="250" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-66" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;i&gt;&lt;br&gt;元空间（实现）&lt;br&gt;&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="112.5" y="2240" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-67" value="" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="75" y="2280" width="215" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-68" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;&lt;i&gt;运行时常量池&lt;/i&gt;&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="2300" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-72" value="&lt;b style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 18px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(248, 249, 250); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;i&gt;本地内存&lt;/i&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="135" y="2210" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=18;" edge="1" parent="1" source="C3d5GvJ_J4JVkLSLOHPJ-74" target="C3d5GvJ_J4JVkLSLOHPJ-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-74" value="&lt;b style=&quot;&quot;&gt;&lt;i&gt;方法区&lt;br&gt;（概念）&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;fontSize=18;fillColor=#cdeb8b;strokeColor=#36393d;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="2340" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-75" value="&lt;b&gt;&lt;i&gt;类型信息&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="70" y="2370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-76" value="&lt;b&gt;&lt;i&gt;属性信息&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="2370" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-77" value="&lt;b&gt;&lt;i&gt;方法信息&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="70" y="2445" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-78" value="&lt;b&gt;&lt;i&gt;JIT&lt;br&gt;代码缓存&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="190" y="2445" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-80" value="&lt;b&gt;&lt;i&gt;字符串常量池&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="717.5" y="2305" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="C3d5GvJ_J4JVkLSLOHPJ-81" value="&lt;b&gt;&lt;i&gt;静态变量&lt;/i&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=0;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="712.5" y="2425" width="160" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
