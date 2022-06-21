@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-06-21T02:25:43.686Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="bFQ0gSK0PuO3OHFGqMAk" version="20.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-06-21T02:31:43.074Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36" etag="IUnr4wXqjuhPUlI8_Ia9" version="20.0.1" type="github">
   <diagram id="TUnOw4-OjzSRCAbL5mTf" name="Page-1">
     <mxGraphModel dx="1422" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
@@ -82,6 +82,60 @@
         </mxCell>
         <mxCell id="n0v-IEttftfymTyLD5pH-23" value="将视频数据&lt;br&gt;写入redis" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="710" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n0v-IEttftfymTyLD5pH-26" value="&lt;b&gt;&lt;i&gt;查询首页视频添加redis缓存流程&lt;/i&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="700" y="160" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n0v-IEttftfymTyLD5pH-27" value="客户端" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="100" y="250" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n0v-IEttftfymTyLD5pH-29" value="数据库" style="rounded=1;whiteSpace=wrap;html=1;fontSize=18;sketch=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="110" y="630" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n0v-IEttftfymTyLD5pH-30" value="redis" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;fontSize=18;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="110" y="440" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n0v-IEttftfymTyLD5pH-31" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=18;sketch=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="330" as="sourcePoint" />
+            <mxPoint x="140" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0v-IEttftfymTyLD5pH-32" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=18;sketch=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="430" as="sourcePoint" />
+            <mxPoint x="190" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0v-IEttftfymTyLD5pH-33" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=18;sketch=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="139" y="520" as="sourcePoint" />
+            <mxPoint x="139" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0v-IEttftfymTyLD5pH-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=18;sketch=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="620" as="sourcePoint" />
+            <mxPoint x="360" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0v-IEttftfymTyLD5pH-35" value="&lt;i&gt;请求&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="340" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n0v-IEttftfymTyLD5pH-36" value="&lt;i&gt;命中&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="400" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n0v-IEttftfymTyLD5pH-37" value="&lt;i&gt;未命中&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="59.5" y="550" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n0v-IEttftfymTyLD5pH-38" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fontSize=18;sketch=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="195" y="615" as="sourcePoint" />
+            <mxPoint x="195" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0v-IEttftfymTyLD5pH-39" value="&lt;i&gt;写缓存&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="195" y="585" width="70" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
